@@ -2,31 +2,31 @@
 
 ## 🧭 Labo 1 — Basics
 
-| Exercise  | Status | Difficulty | Notes |
-|-----------|--------|------------|-------|
-| oefening1 | ☐      | ⭐          |       |
-| oefening2 | ☐      | ⭐          |       |
-| oefening3 | ☐      | ⭐⭐         |       |
-| oefening4 | ☐      | ⭐⭐         |       |
-| oefening5 | ☐      | ⭐⭐⭐        |       |
-| oefening6 | ☐      | ⭐⭐         |       |
-| oefening7 | ☐      | ⭐⭐         |       |
-| oefening8 | ☐      | ⭐          |       |
+| Exercise  | Status | Difficulty | Notes                       |
+|-----------|--------|------------|-----------------------------|
+| oefening1 | ✅      | ⭐          |                             |
+| oefening2 | ✅      | ⭐          | %4o vb octaal               |
+| oefening3 | ✅      | ⭐          |                             |
+| oefening4 | ✅      | ⭐          |                             |
+| oefening5 | ✅      | ⭐          |                             |
+| oefening6 | ⚠️     | ⭐⭐         | scanf() -> buffer leegmaken |
+| oefening7 | ☐      | ⭐⭐         |                             |
+| oefening8 | ✅      | ⭐          |                             |
 
 ---
 
-## ⚙️ Labo 2 — Control Structures
+## ⚙️ Labo 2 — Functies/procedures en arrays
 
-| Exercise   | Status | Difficulty | Notes        |
-|------------|--------|------------|--------------|
-| oefening9  | ☐      | ⭐          |              |
-| oefening10 | ☐      | ⭐⭐         |              |
-| oefening11 | ☐      | ⭐⭐         |              |
-| oefening12 | ☐      | ⭐⭐         |              |
-| oefening13 | ☐      | ⭐⭐         |              |
-| oefening14 | ☐      | ⭐⭐⭐        | tricky loops |
-| oefening15 | ☐      | ⭐          |              |
-| oefening16 | ☐      | ⭐⭐         |              |
+| Exercise   | Status | Difficulty | Notes                                                                        |
+|------------|--------|------------|------------------------------------------------------------------------------|
+| oefening9  | ✅      | ⭐          |                                                                              |
+| oefening10 | ✅      | ⭐          |                                                                              |
+| oefening11 | ✅      | ⭐          |                                                                              |
+| oefening12 | ⚠️     | ⭐          | fabs(t[i] - g) < 1e-9                                                        |
+| oefening13 | ✅      | ⭐          | klein foutje bij loop (t++) gedaan terwijl er met i gewerkt werdt en niet *t |
+| oefening14 | 🧠     | ⭐          | Grenzen van vanalles!                                                        |
+| oefening15 | 🧠     | ⭐          | while met scanf combo!                                                       |
+| oefening16 | ⚠️⚠️⚠️ | ⭐⭐⭐        | 2D matrix                                                                    |
 
 ---
 
@@ -89,6 +89,8 @@
     - ☐ = not done
     - ✅ = done
     - ⚠️ = needs review
+    - ❌ = niet kennen
+    - 🧠 = extra checken
 - **Difficulty:**
     - ⭐ easy
     - ⭐⭐ medium
