@@ -18,7 +18,7 @@ int main() {
 }
 
 char *lees() {
-    char buffer[MAXLENGTE + 1];  // ruimte voor '\n' en '\0'
+    char buffer[MAXLENGTE + 1];  // ruimte voor '\n'
 
     fgets(buffer, sizeof(buffer), stdin);
 
@@ -29,12 +29,11 @@ char *lees() {
         len --;
     }
     else {
-        int ch;
-        while ((ch = getchar()) != '\n' && ch != EOF);
+        while (getchar() != '\n');
     }
 
     // maak nieuwe string van juiste lengte
-    char *resultaat = malloc(len + 1);
+    char *resultaat = malloc(len + 1); // malloc( len + 1 * sizeof(char) )
     strcpy(resultaat, buffer);
 
     return resultaat;

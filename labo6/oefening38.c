@@ -39,7 +39,7 @@ void voeg_vooraan_toe(int getal, knoop ** lst) {
 
 void vernietig_lijst(knoop ** lst) {
     while (*lst) {
-        knoop *h = *lst;
+        knoop * h = *lst;
         *lst = h->volgend;
         free(h);
     }

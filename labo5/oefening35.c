@@ -16,11 +16,12 @@ int main() {
     printf("\n--- Ingelezen tekst ---\n");
     for (int i = 0; lijnen[i] != NULL; i++) {
         printf("%s\n", lijnen[i]);
-    }
-
-    for (int i = 0; lijnen[i] != NULL; i++) {
         free(lijnen[i]);
     }
+
+    // for (int i = 0; lijnen[i] != NULL; i++) { kan onmiddelijk in forloop erboven
+    //     free(lijnen[i]);
+    // }
     free(lijnen);
 
     return 0;
@@ -40,9 +41,9 @@ char ** lees_meerdere(int n) {
 }
 
 char *lees() {
-    char buffer[MAXLENGTE + 1];  // ruimte voor '\n' en '\0'
+    char buffer[MAXLENGTE + 1];  // ruimte voor '\n'
 
-    fgets(buffer, sizeof(buffer), stdin);
+    fgets(buffer, sizeof(buffer), stdin); // fgets(buffer, MAXLENGTE+1, stdin);
 
     int len = strlen(buffer);
 
@@ -51,11 +52,9 @@ char *lees() {
         len --;
     }
     else {
-        int ch;
-        while ((ch = getchar()) != '\n' && ch != EOF);
+        while (getchar() != '\n');
     }
 
-    // maak nieuwe string van juiste lengte
     char *resultaat = malloc(len + 1);
     strcpy(resultaat, buffer);
 

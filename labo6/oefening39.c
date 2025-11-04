@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+//aantal * ? moet de pointer verschoven worden of niet -> zo ja 2 ** anders *
+
 typedef struct knoop knoop;
 struct knoop {
     int getal;
@@ -44,7 +46,6 @@ knoop * maak_gesorteerde_lijst_automatisch(int aantal, int max) {
 
         int verschil = rand() % 3;
         getal -= verschil;
-        // printf("%d ", getal);
         if (getal < 0) {
             getal = 0;
         }
@@ -59,7 +60,7 @@ void voeg_vooraan_toe(int getal,knoop ** lst) {
     *lst = k;
 }
 
-void verwijder_dubbels(knoop ** lst) {
+void verwijder_dubbels(knoop ** lst) {//maken met 1 *
     if (*lst == NULL) return;
 
     knoop *k = *lst;
