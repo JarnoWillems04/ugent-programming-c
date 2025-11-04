@@ -3,6 +3,8 @@ project(labo_c C)
 
 set(CMAKE_C_STANDARD 11)
 
+add_executable(main main.c)
+
 # Labo 1: oefeningen 1–8
 add_executable(oefening1 labo1/oefening1.c)
 add_executable(oefening2 labo1/oefening2.c)
