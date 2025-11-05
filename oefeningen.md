@@ -30,22 +30,22 @@
 
 ---
 
-## 🧩 Labo 3 — Functions & Arrays
+## 🧩 Labo 3 — Pointers
 
-| Exercise   | Status | Difficulty | Notes       |
-|------------|--------|------------|-------------|
-| oefening17 | ☐      | ⭐          |             |
-| oefening18 | ☐      | ⭐⭐         |             |
-| oefening19 | ☐      | ⭐⭐         |             |
-| oefening20 | ☐      | ⭐⭐⭐        | array logic |
-| oefening21 | ☐      | ⭐⭐         |             |
-| oefening22 | ☐      | ⭐⭐         |             |
-| oefening23 | ☐      | ⭐⭐⭐        |             |
-| oefening24 | ☐      | ⭐          |             |
+| Exercise   | Status | Difficulty | Notes                                  |
+|------------|--------|------------|----------------------------------------|
+| oefening17 | ⚠️     | ⭐⭐         |                                        |
+| oefening18 | ✅      | ⭐          | wisselen int's met pointers            |
+| oefening19 | ✅      | ⭐          |                                        |
+| oefening20 | ✅      | ⭐          |                                        |
+| oefening21 | ✅      | ⭐          |                                        |
+| oefening22 | ⚠️     | ⭐⭐         |                                        |
+| oefening23 | ✅      | ⭐⭐         | veel pointer schuiven en while grenzen |
+| oefening24 | ☐      | ⭐          |                                        |
 
 ---
 
-## 📚 Labo 4 — Strings & Files
+## 📚 Labo 4 — C-strings
 
 | Exercise   | Status | Difficulty | Notes               |
 |------------|--------|------------|---------------------|
@@ -60,7 +60,7 @@
 
 ---
 
-## 🧠 Labo 5 — Structs & Pointers
+## 🧠 Labo 5 — Structs en dynamisch geheugenbeheer
 
 | Exercise   | Status | Difficulty | Notes              |
 |------------|--------|------------|--------------------|
@@ -72,7 +72,7 @@
 
 ---
 
-## 🖥️ Labo 6 — Advanced Topics / Projects
+## 🖥️ Labo 6 — Gelinkte lijsten
 
 | Exercise   | Status | Difficulty | Notes              |
 |------------|--------|------------|--------------------|

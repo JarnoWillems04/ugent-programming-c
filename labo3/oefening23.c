@@ -39,6 +39,16 @@ void pivoteer(char* begin, char* einde, char* pivot) {
 }
  */
 
+// void pivoteer (char * begin, char * einde, char * p){
+//     int i = 1;
+//     while (begin <= (p-i) && einde >= (p+i)){
+//         char hulp = *(p-i);
+//         *(p-i) = *(p+i);
+//         *(p+i) = hulp;
+//         i++;
+//     }
+// }
+
 void schrijf(const char* t,const char* u) {
     while (t != u) {
         printf("%c",t[0]);
