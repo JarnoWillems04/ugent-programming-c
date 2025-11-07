@@ -39,48 +39,48 @@
 | oefening19 | ✅      | ⭐          |                                        |
 | oefening20 | ✅      | ⭐          |                                        |
 | oefening21 | ✅      | ⭐          |                                        |
-| oefening22 | ⚠️     | ⭐⭐         |                                        |
+| oefening22 | ⚠️     | ⭐⭐         | **                                     |
 | oefening23 | ✅      | ⭐⭐         | veel pointer schuiven en while grenzen |
-| oefening24 | ☐      | ⭐          |                                        |
+| oefening24 | ⚠️     | ⭐          | functie declaratie                     |
 
 ---
 
 ## 📚 Labo 4 — C-strings
 
-| Exercise   | Status | Difficulty | Notes               |
-|------------|--------|------------|---------------------|
-| oefening25 | ☐      | ⭐⭐         |                     |
-| oefening26 | ☐      | ⭐⭐         |                     |
-| oefening27 | ☐      | ⭐⭐⭐        | file I/O            |
-| oefening28 | ☐      | ⭐⭐         |                     |
-| oefening29 | ☐      | ⭐⭐         |                     |
-| oefening30 | ☐      | ⭐⭐⭐        |                     |
-| oefening31 | ☐      | ⭐⭐         |                     |
-| oefening32 | ☐      | ⭐⭐⭐        | harder file parsing |
+| Exercise   | Status | Difficulty | Notes                                                      |
+|------------|--------|------------|------------------------------------------------------------|
+| oefening25 | ✅      | ⭐          | opletten while loop wnr break bij c-strings woord inlezen  |
+| oefening26 | ✅      | ⭐          | opletten hoe c-string def best met []                      |
+| oefening27 | ✅      | ⭐          | foutje bij while condition                                 |
+| oefening28 | ✅      | ⭐⭐         | hoe items verwijderen uit c-string zin uitlezen niet woord |
+| oefening29 | ⚠️     | ⭐⭐⭐        | cast cast cast                                             |
+| oefening30 | ⚠️     | ⭐⭐⭐        | cast cats cast + consten                                   |
+| oefening31 | ✅      | ⭐          | argc && argv                                               |
+| oefening32 | ✅      | ⭐          | strcmp(s1, s2) ( > 0 ) s1 is kleinste ( < 0 ) s1 is groter |
 
 ---
 
 ## 🧠 Labo 5 — Structs en dynamisch geheugenbeheer
 
-| Exercise   | Status | Difficulty | Notes              |
-|------------|--------|------------|--------------------|
-| oefening33 | ☐      | ⭐⭐         |                    |
-| oefening34 | ☐      | ⭐⭐         |                    |
-| oefening35 | ☐      | ⭐⭐⭐        | pointers + structs |
-| oefening36 | ☐      | ⭐⭐         |                    |
-| oefening37 | ☐      | ⭐⭐         |                    |
+| Exercise   | Status | Difficulty | Notes |
+|------------|--------|------------|-------|
+| oefening33 | ☐      | ⭐⭐         |       |
+| oefening34 | ❌      | ⭐⭐         |       |
+| oefening35 | ❌      | ⭐⭐⭐        |       |
+| oefening36 | ☐      | ⭐⭐         |       |
+| oefening37 | ❌      | ⭐⭐         |       |
 
 ---
 
 ## 🖥️ Labo 6 — Gelinkte lijsten
 
-| Exercise   | Status | Difficulty | Notes              |
-|------------|--------|------------|--------------------|
-| oefening38 | ☐      | ⭐⭐         |                    |
-| oefening39 | ☐      | ⭐⭐         |                    |
-| oefening40 | ☐      | ⭐⭐⭐        |                    |
-| oefening41 | ☐      | ⭐⭐⭐        | dynamic memory     |
-| oefening42 | ☐      | ⭐⭐⭐⭐       | final project-like |
+| Exercise   | Status | Difficulty | Notes |
+|------------|--------|------------|-------|
+| oefening38 | ☐      | ⭐⭐         |       |
+| oefening39 | ☐      | ⭐⭐         |       |
+| oefening40 | ☐      | ⭐⭐⭐        |       |
+| oefening41 | ☐      | ⭐⭐⭐        |       |
+| oefening42 | ☐      | ⭐⭐⭐⭐       |       |
 
 ---
 
