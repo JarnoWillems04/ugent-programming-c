@@ -64,7 +64,7 @@
 
 | Exercise   | Status | Difficulty | Notes |
 |------------|--------|------------|-------|
-| oefening33 | ☐      | ⭐⭐         |       |
+| oefening33 | ❌      | ⭐⭐         |       |
 | oefening34 | ❌      | ⭐⭐         |       |
 | oefening35 | ❌      | ⭐⭐⭐        |       |
 | oefening36 | ☐      | ⭐⭐         |       |
